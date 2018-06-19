@@ -1,8 +1,6 @@
-@charset "utf-8";
-/* CSS Document */
 @media (max-width: 767.98px) {
-	h1{
-	font-size: 2.5rem!important;
+	h1 {
+		font-size: 2.5rem!important;
 	}
 }
 .toolbox {
@@ -11,39 +9,39 @@
 	height: 190px;
 }
 .toolbox.negative-max {
-	margin-top: -181px; 
+	margin-top: -181px;
 }
 .toolbox.negative-medium {
 	margin-top: -140px;
 }
-@media (max-width: 991px) {
+@media (max-width: 576px) {
 	.toolbox {
-	overflow: visible;
-	margin-top: 0 !important;
-	margin-bottom: 45px;
-	height: auto; 
-	} 
+		overflow: visible;
+		margin-top: 0 !important;
+		margin-bottom: 45px;
+		height: auto;
+	}
 }
 .toolbox .toolbox-item {
 	border-right: 3px solid transparent;
 	float: left;
-	width: 25%;
+	width: 50%;
 	position: relative;
-	height: 181px; 
+	height: 181px;
 }
-@media (max-width: 991px) {
+@media (max-width: 577px) {
 	.toolbox .toolbox-item {
-	width: 100%;
-	height: auto;
-	border-right: 0;
-	border-bottom: 1px solid #eee; 
-}
-.toolbox .toolbox-item:nth-of-type(1) 
-{
-	border-top: 1px solid #eee;}
+		width: 100%;
+		height: auto;
+		border-right: 0;
+		border-bottom: 1px solid #eee;
+	}
+	.toolbox .toolbox-item:nth-of-type(1) {
+		border-top: 1px solid #eee;
+	}
 }
 .toolbox .toolbox-item:nth-last-of-type(1) {
-	border-right: 0; 
+	border-right: 0;
 }
 .toolbox .toolbox-item a {
 	display: -webkit-box;
@@ -59,16 +57,17 @@
 	-webkit-box-align: center;
 	-webkit-align-items: center;
 	-ms-flex-align: center;
-	justify-content:center;
-	position: relative; }
-	@media (min-width: 992px) {
-	.toolbox .toolbox-item a {
-	-webkit-transform: translate3d(0px, 107px, 0px);
-	transform: translate3d(0px, 107px, 0px);
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	-o-transition: opacity 0.35s, transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+	justify-content: center;
+	position: relative;
 }
+@media (min-width: 577px) {
+	.toolbox .toolbox-item a {
+		-webkit-transform: translate3d(0px, 107px, 0px);
+		transform: translate3d(0px, 107px, 0px);
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		-o-transition: opacity 0.35s, transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+	}
 }
 .toolbox .toolbox-item a:after {
 	content: "";
@@ -78,31 +77,32 @@
 	position: absolute;
 	right: 20px;
 	top: 50%;
-	margin-top: -5px; 
+	margin-top: -5px;
 }
-@media (min-width: 992px) {
+@media (min-width: 577px) {
 	.toolbox .toolbox-item a:hover, .toolbox .toolbox-item a.active {
-	color: #fff;
-	background: #0085f9;
+		color: #fff;
+		background: #0085f9;
 	}
-.toolbox .toolbox-item a:hover:after, .toolbox .toolbox-item a.active:after {
-	background-position: 0 -13px;
-} 
+	.toolbox .toolbox-item a:hover:after, .toolbox .toolbox-item a.active:after {
+		background-position: 0 -13px;
+	}
 }
 .toolbox .toolbox-item a.active {
-font-size: 14px;
-font-size: 1.4rem; }
-@media (max-width: 991px) {
-.toolbox .toolbox-item a {
-font-size: 15px;
-font-size: 1.5rem;
-text-transform: none;
-background: #fff;
-padding: 10px 15px; 
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+@media (max-width: 576px) {
+	.toolbox .toolbox-item a {
+		font-size: 15px;
+		font-size: 1.5rem;
+		text-transform: none;
+		background: #fff;
+		padding: 10px 15px;
 	}
-.toolbox .toolbox-item a br {
-display: none; 
-	} 
+	.toolbox .toolbox-item a br {
+		display: none;
+	}
 }
 .toolbox .toolbox-item .icon {
 	float: left;
@@ -114,14 +114,13 @@ display: none;
 	-ms-border-radius: 50%;
 	border-radius: 50%;
 	margin-right: 15px;
-	padding:10px;
+	padding: 10px;
 }
-@media (max-width: 991.98px){
-.toolbox .toolbox-item .icon {
-	background: #eff0f1; 
+@media (max-width: 576px) {
+	.toolbox .toolbox-item .icon {
+		background: #eff0f1;
 	}
 }
-
 .toolbox .toolbox-item .more {
 	padding: 5px 15px 25px 15px;
 	margin: 0;
@@ -130,45 +129,43 @@ display: none;
 	color: #fff;
 	background: #0085f9;
 }
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 576px) and (max-width: 1199.98px) {
 	.toolbox .toolbox-item .more {
-	font-size: 1.2rem;
+		font-size: 1.2rem;
+	}
 }
-}
-@media (min-width: 992px) {
+@media (min-width: 576px) {
 	.toolbox .toolbox-item .more {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	-o-transition: opacity 0.35s, transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
-	-webkit-transform: translate3d(0px, 107px, 0px);
-	transform: translate3d(0px, 107px, 0px); 
-		} 
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		-o-transition: opacity 0.35s, transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+		-webkit-transform: translate3d(0px, 107px, 0px);
+		transform: translate3d(0px, 107px, 0px);
+	}
 }
-@media (max-width: 991.98px) {
+@media (max-width: 576px) {
 	.toolbox .toolbox-item .more {
-	display: none; 
-		} 
+		display: none;
+	}
 }
 .toolbox .toolbox-item .more p {
 	padding-top: 8px;
-	font-size:1rem;
-	min-height:80px;
+	font-size: 1rem;
+	min-height: 80px;
 	border-top: 1px solid #40a4fb;
 }
-@media (min-width: 992px) {
+@media (min-width: 577px) {
 	.toolbox .toolbox-item:hover a {
-	-webkit-transform: translate3d(0px, 0, 0px);
-	transform: translate3d(0px, 0, 0px);
-	color: #fff;
-	background: #0085f9;
+		-webkit-transform: translate3d(0px, 0, 0px);
+		transform: translate3d(0px, 0, 0px);
+		color: #fff;
+		background: #0085f9;
 	}
-.toolbox .toolbox-item:hover a:after
-	{
-	background-position: 0 -13px;
+	.toolbox .toolbox-item:hover a:after {
+		background-position: 0 -13px;
 	}
-.toolbox .toolbox-item:hover .more {
-	-webkit-transform: translate3d(0px, 0, 0px) rotateX(0deg);
-	transform: translate3d(0px, 0, 0px) rotateX(0deg); 
-	} 
+	.toolbox .toolbox-item:hover .more {
+		-webkit-transform: translate3d(0px, 0, 0px) rotateX(0deg);
+		transform: translate3d(0px, 0, 0px) rotateX(0deg);
+	}
 }
-
