@@ -1,11 +1,14 @@
 # flyout-boxes
+Giving more control and a better UX to your website visitors doesn't have to be tricky. Here's an easy way to do that with animated toolbox flyouts.
+
+Your website's content is one of the most important pieces to your website's success. At times, your website users might not need all of the content you offer at one time. Using animated toolbox flyouts can help offset the amount of copy seen on a page. 
 
 ## Tutorial		  
 For detailed instruction's, view Solodev's [How to Make Animated Toolbox Flyouts](https://www.solodev.com/blog/how-to-make-animated-toolbox-flyouts.stml) article.
  
 ## Demo
   		  
-Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/ox7vu4hp/82/).
+Try out a working example on [JSFiddle](https://jsfiddle.net/solodev/ox7vu4hp/).
 
 ## HTML
 
